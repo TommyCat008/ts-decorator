@@ -4,5 +4,7 @@ export const usePermissionStore = defineStore('permission', {
     state: () => ({
         userRoles: [],
     }),
-    actions: {},
+    actions: {
+        queryUserRoles() {},
+    },
 });

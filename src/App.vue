@@ -6,13 +6,15 @@
         <a href="https://vuejs.org/" target="_blank">
             <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
         </a>
+        <!-- <el-input v-model="text" maxlength="10" placeholder="Please input" show-word-limit type="text" /> -->
     </div>
     <HelloWorld msg="Vite + Vue" />
 </template>
 
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
-// import 
+// import {ref} from 'vue';
+// const text = ref('');
 </script>
 
 <style scoped>

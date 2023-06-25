@@ -9,7 +9,9 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "element-plus": "^2.3.7",
         "pinia": "^2.1.4",
+        "reflect-metadata": "^0.1.13",
         "vue": "^3.2.47"
     },
     "devDependencies": {
