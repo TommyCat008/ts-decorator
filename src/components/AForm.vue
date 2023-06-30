@@ -19,7 +19,7 @@
             />
         </el-form-item>
         <el-form-item>
-            <el-button type="primary" @click="onSubmit" :disabled="userEntity.getEditPermission()">Create</el-button>
+            <el-button type="primary" @click="onSubmit" :disabled="!userEntity.getEditPermission()">Create</el-button>
             <el-button>Cancel</el-button>
         </el-form-item>
     </el-form>

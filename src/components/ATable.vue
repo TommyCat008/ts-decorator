@@ -1,5 +1,5 @@
 <template>
-    <el-button type="primary" :disabled="disabled">{{ props.text }}</el-button>
+    <el-button type="primary" :disabled="!disabled">{{ props.text }}</el-button>
 </template>
 
 <script lang="ts" setup>
