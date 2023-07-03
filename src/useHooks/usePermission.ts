@@ -15,24 +15,15 @@ function checkPermission(target: Function, _context: any) {
         return alert('用户未登录');
     }
     target.prototype.getAddPermission = (): boolean => {
-        if (userInfos.permission.includes('add')) {
-            return true;
-        }
-        return false;
+        return userInfos.permission.includes('add');
     };
 
     target.prototype.getDeletePermission = (): boolean => {
-        if (userInfos.permission.includes('delete')) {
-            return true;
-        }
-        return false;
+        return userInfos.permission.includes('delete');
     };
 
     target.prototype.getEditPermission = (): boolean => {
-        if (userInfos.permission.includes('edit')) {
-            return true;
-        }
-        return false;
+        return userInfos.permission.includes('edit');
     };
 }
 
